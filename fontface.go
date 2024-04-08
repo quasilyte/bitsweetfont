@@ -21,7 +21,7 @@ type runeAndIndex struct {
 func New1() font.Face {
 	data := uncompress(size1_00data)
 	img := newBitmapImage(data, 6, 12)
-	f := newBitmapFont(0, img, 0, 9)
+	f := newBitmapFont(0, img, 0, 10)
 	f.MinRune = 32
 	f.MaxRune = 10064
 	f.GlyphBitSize = 72
@@ -36,7 +36,7 @@ func New1() font.Face {
 func New1_3() font.Face {
 	data := uncompress(size1_30data)
 	img := newBitmapImage(data, 8, 16)
-	f := newBitmapFont(1, img, 0, 12)
+	f := newBitmapFont(1, img, 0, 13)
 	f.MinRune = 32
 	f.MaxRune = 10064
 	f.GlyphBitSize = 128
