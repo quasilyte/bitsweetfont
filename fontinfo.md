@@ -5,6 +5,7 @@
 * Runes: 166
 * Sizes: `1`, `1.3`
 * Generation date: 8 of April 2024
+* Missing rune resolution: stub
 
 ## UTF-8 Runes
 
