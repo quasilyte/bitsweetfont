@@ -11,20 +11,20 @@
 | Rune | Code | Tag |
 |---|---|---|
 |   | 32 | common |
-| ! | 33 | common |
+| \! | 33 | common |
 | " | 34 | common |
-| # | 35 | common |
+| \# | 35 | common |
 | $ | 36 | common |
 | % | 37 | common |
 | & | 38 | common |
 | ' | 39 | common |
-| ( | 40 | common |
-| ) | 41 | common |
-| * | 42 | common |
-| + | 43 | common |
+| \( | 40 | common |
+| \) | 41 | common |
+| \* | 42 | common |
+| \+ | 43 | common |
 | , | 44 | common |
-| - | 45 | common |
-| . | 46 | common |
+| \- | 45 | common |
+| \. | 46 | common |
 | / | 47 | common |
 | 0 | 48 | common |
 | 1 | 49 | common |
@@ -69,7 +69,7 @@
 | Y | 89 | en |
 | Z | 90 | en |
 | [ | 91 | common |
-| \ | 92 | common |
+| \\ | 92 | common |
 | ] | 93 | common |
 | ^ | 94 | common |
 | a | 97 | en |
@@ -98,9 +98,9 @@
 | x | 120 | en |
 | y | 121 | en |
 | z | 122 | en |
-| { | 123 | common |
-| | | 124 | common |
-| } | 125 | common |
+| \{ | 123 | common |
+| \| | 124 | common |
+| \} | 125 | common |
 | ~ | 126 | common |
 | × | 215 | symbols |
 | Ё | 1025 | ru |
