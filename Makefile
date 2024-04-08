@@ -4,6 +4,7 @@ font:
 		--data-dir=_data \
 		--out-dir=_build \
 		--pkgname=bitsweetfont \
+		--generate-info \
 		-v
 	@ cp _build/* .
 	@ rm -rf _build

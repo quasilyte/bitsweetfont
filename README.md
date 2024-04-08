@@ -26,6 +26,8 @@ If you want to contribute new images for this pack, please keep in mind that I w
 
 This is a simple font and by no means universal (look at the tiny number of languages it supports!) At the same time, it should be a good example on how to make bitmap fonts for your games using [bitfontier](https://github.com/quasilyte/bitfontier). Good luck!
 
+> See [fontinfo.md](fontinfo.md) to see a full list of runes supported.
+
 ## Installation
 
 ```bash
