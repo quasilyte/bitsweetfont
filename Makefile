@@ -1,5 +1,5 @@
 font:
-	/home/quasilyte/CODE/bitfontier/bitfontier \
+	bitfontier \
 		--on-missing=stub \
 		--data-dir=_data \
 		--out-dir=_build \
