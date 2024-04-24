@@ -2,9 +2,9 @@
 
 ## Overview
 
-* Runes: 166
+* Runes: 168
 * Sizes: `1`, `1.3`
-* Generation date: 8 of April 2024
+* Generation date: 24 of April 2024
 * Missing rune resolution: stub
 
 ## UTF-8 Runes
@@ -73,6 +73,8 @@
 | \\ | 92 | common |
 | ] | 93 | common |
 | ^ | 94 | common |
+| \_ | 95 | common |
+| ` | 96 | common |
 | a | 97 | en |
 | b | 98 | en |
 | c | 99 | en |
