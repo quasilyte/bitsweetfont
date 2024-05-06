@@ -24,6 +24,8 @@ func New1() font.Face {
 	f := newBitmapFont(0, img, 0, 10)
 	f.MinRune = 32
 	f.MaxRune = 10064
+	f.XHeight = 6
+	f.CapHeight = 9
 	f.GlyphBitSize = 72
 	f.RuneMapping = size1_00mapping[:]
 	return f
@@ -39,6 +41,8 @@ func New1_3() font.Face {
 	f := newBitmapFont(1, img, 0, 13)
 	f.MinRune = 32
 	f.MaxRune = 10064
+	f.XHeight = 8
+	f.CapHeight = 11
 	f.GlyphBitSize = 128
 	f.RuneMapping = size1_30mapping[:]
 	return f
