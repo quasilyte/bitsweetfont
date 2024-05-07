@@ -2,9 +2,9 @@
 
 ## Overview
 
-* Runes: 168
+* Runes: 171
 * Sizes: `1`, `1.3`
-* Generation date: 6 of May 2024
+* Generation date: 7 of May 2024
 * Missing rune resolution: stub
 
 ## UTF-8 Runes
@@ -172,6 +172,9 @@
 | ю | 1102 | ru |
 | я | 1103 | ru |
 | ё | 1105 | ru |
+| ≠ | 8800 | math |
+| ≤ | 8804 | math |
+| ≥ | 8805 | math |
 | □ | 9633 | symbols |
 | △ | 9651 | symbols |
 | ○ | 9675 | symbols |
