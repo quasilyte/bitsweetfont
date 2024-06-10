@@ -63,16 +63,16 @@ const (
 func getStubImageIndex(id int) uint {
 	switch id {
 	case 0: // size=1_00
-		return 157
+		return 158
 	case 1: // size=1_30
-		return 154
+		return 155
 	default:
 		panic("unreachable")
 	}
 }
 
 var (
-	// len=171 sizeApprox=684
+	// len=172 sizeApprox=688
 	size1_00mapping = [...]runeAndIndex{
 		{r: 32, i: 0},      // ' '
 		{r: 33, i: 1},      // '!'
@@ -244,10 +244,11 @@ var (
 		{r: 9676, i: 153},  // '◌'
 		{r: 9679, i: 154},  // '●'
 		{r: 9776, i: 155},  // '☰'
-		{r: 10064, i: 156}, // '❐'
+		{r: 10003, i: 156}, // '✓'
+		{r: 10064, i: 157}, // '❐'
 	}
 
-	// len=171 sizeApprox=684
+	// len=172 sizeApprox=688
 	size1_30mapping = [...]runeAndIndex{
 		{r: 32, i: 0},      // ' '
 		{r: 33, i: 1},      // '!'
@@ -419,6 +420,7 @@ var (
 		{r: 9676, i: 150},  // '◌'
 		{r: 9679, i: 151},  // '●'
 		{r: 9776, i: 152},  // '☰'
-		{r: 10064, i: 153}, // '❐'
+		{r: 10003, i: 153}, // '✓'
+		{r: 10064, i: 154}, // '❐'
 	}
 )
