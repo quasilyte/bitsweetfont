@@ -23,7 +23,7 @@ func New1() font.Face {
 	img := newBitmapImage(data, 6, 12)
 	f := newBitmapFont(0, img, 0, 10)
 	f.MinRune = 32
-	f.MaxRune = 10064
+	f.MaxRune = 11015
 	f.XHeight = 6
 	f.CapHeight = 9
 	f.GlyphBitSize = 72
@@ -40,7 +40,7 @@ func New1_3() font.Face {
 	img := newBitmapImage(data, 8, 16)
 	f := newBitmapFont(1, img, 0, 13)
 	f.MinRune = 32
-	f.MaxRune = 10064
+	f.MaxRune = 11015
 	f.XHeight = 8
 	f.CapHeight = 11
 	f.GlyphBitSize = 128
@@ -63,16 +63,16 @@ const (
 func getStubImageIndex(id int) uint {
 	switch id {
 	case 0: // size=1_00
-		return 158
+		return 162
 	case 1: // size=1_30
-		return 155
+		return 159
 	default:
 		panic("unreachable")
 	}
 }
 
 var (
-	// len=172 sizeApprox=688
+	// len=176 sizeApprox=704
 	size1_00mapping = [...]runeAndIndex{
 		{r: 32, i: 0},      // ' '
 		{r: 33, i: 1},      // '!'
@@ -246,9 +246,13 @@ var (
 		{r: 9776, i: 155},  // '☰'
 		{r: 10003, i: 156}, // '✓'
 		{r: 10064, i: 157}, // '❐'
+		{r: 10145, i: 158}, // '➡'
+		{r: 11013, i: 159}, // '⬅'
+		{r: 11014, i: 160}, // '⬆'
+		{r: 11015, i: 161}, // '⬇'
 	}
 
-	// len=172 sizeApprox=688
+	// len=176 sizeApprox=704
 	size1_30mapping = [...]runeAndIndex{
 		{r: 32, i: 0},      // ' '
 		{r: 33, i: 1},      // '!'
@@ -422,5 +426,9 @@ var (
 		{r: 9776, i: 152},  // '☰'
 		{r: 10003, i: 153}, // '✓'
 		{r: 10064, i: 154}, // '❐'
+		{r: 10145, i: 155}, // '➡'
+		{r: 11013, i: 156}, // '⬅'
+		{r: 11014, i: 157}, // '⬆'
+		{r: 11015, i: 158}, // '⬇'
 	}
 )
