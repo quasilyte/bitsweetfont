@@ -2,9 +2,9 @@
 
 ## Overview
 
-* Runes: 177
+* Runes: 178
 * Sizes: `1`, `1.3`
-* Generation date: 2 of August 2024
+* Generation date: 21 of May 2025
 * Missing rune resolution: stub
 
 ## UTF-8 Runes
@@ -181,6 +181,7 @@
 | ○ | 9675 | symbols |
 | ◌ | 9676 | symbols |
 | ● | 9679 | symbols |
+| ★ | 9733 | symbols |
 | ☰ | 9776 | symbols |
 | ✓ | 10003 | symbols |
 | ❐ | 10064 | symbols |
